@@ -1,6 +1,56 @@
 # nexaops-ai
 NexaOps AI, an enterprise knowledge and service copilot.
 
+## AI-Assisted Development with OpenAI Codex
+
+OpenAI Codex was used extensively throughout the development of NexaOps AI as
+an AI-powered coding assistant to accelerate implementation, explore technical
+approaches, and improve development workflows.
+
+### How Codex Supported Development
+
+- **Project implementation:** Assisted with developing and refining components
+  across the React + TypeScript frontend, Java + Spring Boot backend, and Python
+  + FastAPI AI service.
+- **RAG pipeline development:** Supported implementation of document ingestion,
+  text extraction, chunking, embedding generation, vector-based semantic
+  retrieval, and retrieval-augmented answer generation.
+- **Service integration:** Assisted with connecting the frontend, backend, AI
+  service, PostgreSQL with pgvector, and locally hosted Ollama models.
+- **Database development:** Supported work on database schemas, Flyway
+  migrations, document storage, vector embeddings, and retrieval queries.
+- **Testing and debugging:** Helped investigate errors, improve test coverage,
+  troubleshoot integration issues, and validate application behaviour.
+- **Code review and quality checks:** Supported reviewing implementation
+  changes, identifying potential issues, and checking code quality before
+  integration.
+- **Documentation:** Assisted with documenting the architecture, implementation
+  decisions, API workflows, and development progress.
+
+### Development Approach
+
+Codex was used as a development collaborator rather than a replacement for
+engineering judgement. Implementation decisions, generated changes, and test
+results were reviewed as part of the development workflow.
+
+The project demonstrates how AI-assisted software development can help
+engineers move from architectural ideas to a working application while
+maintaining an emphasis on testing, integration, and understanding the
+underlying systems.
+
+**Project:** NexaOps AI
+
+**Focus:** Generative AI, Retrieval-Augmented Generation (RAG), full-stack
+engineering, and AI-assisted development.
+
+## License
+
+The original NexaOps AI project code is proprietary. Copying, modifying,
+distributing, sublicensing, publishing, or commercially exploiting it requires
+written permission from the copyright owner. This notice applies to original
+project code and does not replace the licences governing third-party components.
+See [LICENSE](LICENSE).
+
 ## Local PostgreSQL with pgvector
 
 The local database runs PostgreSQL 16 with the pgvector extension, using the
